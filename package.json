@@ -1,0 +1,26 @@
+{
+  "name": "express-bakery",
+  "version": "1.0.0",
+  "description": "Make cookies using only query parameters. Convenient, simple, easy.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sandinmyjoints/express-bakery"
+  },
+  "main": "index.js",
+  "keywords": [
+    "express",
+    "cookies",
+    "middleware"
+  ],
+  "scripts": {
+    "dev": "DEBUG=express-bakery nodemon sample.js"
+  },
+  "author": "William Bert <william.bert@gmail.com>",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "debug": "4.1.1",
+    "express": "4.17.1",
+    "nodemon": "1.19.1"
+  }
+}
